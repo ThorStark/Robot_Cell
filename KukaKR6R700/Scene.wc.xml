@@ -1,0 +1,17 @@
+<WorkCell name="KukaKR6R700">
+
+	<Frame name="Robot" refframe="WORLD">
+		<RPY>0 0 0 </RPY>
+		<Pos>0 0 0 </Pos>
+	</Frame>
+
+	<Include file="KukaKR6R700/KukaKR6R700.wc.xml"/>
+
+	<Frame name="ToolMount" refframe="KukaKR6R700.Joint6">
+		<RPY>0 0 180</RPY>
+		<Pos>0 0 -0.0 </Pos>
+	</Frame>
+
+	<CollisionSetup file="SceneCollisionSetup.prox.xml"/>
+
+</WorkCell>
